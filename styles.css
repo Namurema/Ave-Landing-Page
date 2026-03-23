@@ -1,0 +1,56 @@
+ .body {
+    background-color: white;
+    margin: 0%;
+    padding: 0;
+
+
+}
+.container{
+    margin: 0%;
+    padding: auto;
+}
+
+.header-section {
+    background-color: white;
+    color: black;
+
+}
+.nav-bar{
+    color: white;
+    display: flex;
+}
+.nav-text{
+    color: black;
+    display: flex;
+}
+.hero-heading{
+text-align: center;
+color: teal;
+padding-bottom: 8px;
+}
+.second-heading{
+    text-align: center;
+    color: black;
+    padding: auto;
+}
+.hero-paragraph{
+    text-align: center;
+    color: black;
+}
+.hero-btns{
+    padding: auto;
+}
+.App-store{
+transition: 0ms;
+max-width: 8px;
+max-height: 8px;
+border-radius: 4px;
+border-color: black;
+}
+.Google-store{
+    max-width: 8px;
+    max-height: 8px;
+}
+.features{
+    margin-top: auto;
+}
