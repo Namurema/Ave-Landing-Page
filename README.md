@@ -16,6 +16,7 @@ A landing page for AVE, a mobile prayer companion app that provides daily prayer
 - App Store and Google Play download buttons
 
 ## Live Site
+https://namurema.github.io/Ave-Landing-Page/
 
 Deployed via GitHub Pages.
 
