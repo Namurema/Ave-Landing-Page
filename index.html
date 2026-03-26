@@ -39,7 +39,7 @@
           <span>Download on the <br>
           App Store</span> 
          </button>
-         <button class="App-store">
+         <button class="Google-store">
           <img src="assets/gp.png" alt="Google Play" class="store-icon"/>
           <span>GET IT ON <br>
           Google Play</span> 
@@ -133,32 +133,24 @@
         <div class="First-testimonial">
           <button class="testimonials-btn">
          <p2 class="first-card">
-         "AVE has completely transformed my <br>
-         prayer life. The daily reminders help<br>
-          me stay consistent, and the multilingual <br>
-          support means I can pray in my native language."
-          -Eleanor Babirye
-        
+         "AVE has completely transformed my prayer life. The daily reminders help me stay consistent, and the multilingual support means I can pray in my native language."
+          <span class="testimony-name">— Eleanor Babirye</span>
          </p2>
          </button>
          </div>
          <div class="second-testimonial">
           <button class="testimonials-btn">
          <p2 class="second-card">
-         "The novena feature is incredible. <br>
-         I've completed several novenas and felt a deeper spiritual connection.<br>
-          Highly recommend this app to anyone seeking to grow in faith."
-          — John Michael
+         "The novena feature is incredible. I've completed several novenas and felt a deeper spiritual connection. Highly recommend this app to anyone seeking to grow in faith."
+          <span class="testimony-name">— John Michael</span>
          </p2>
          </button>
          </div>
          <div class="third-testimonial">
           <button class="testimonials-btn">
          <p2 class="third-card">
-         "Simple, beautiful, and powerful.<br>
-         AVE makes it easy to incorporate prayer into my busy schedule.<br>
-          The daily mysteries are my favorite feature."
-          — Sarah Chen
+         "Simple, beautiful, and powerful. AVE makes it easy to incorporate prayer into my busy schedule. The daily mysteries are my favorite feature."
+          <span class="testimony-name">— Sarah Chen</span>
          </p2>
          </button>
          </div>
@@ -177,10 +169,13 @@
       <h3 class="third-tittle">
        Have questions or feedback? We'd love to hear from you.
       </h3>
-      <form class="contact-form">
-       <input type="Name" placeholder="Full Name">
-       <input type="email" placeholder="E-mail">
-       <textarea placeholder="Enter Your Message"></textarea>
+      <form class="contact-form" action="https://formspree.io/f/mqegaqrk" method="POST">
+       <label class="form-label">Name</label>
+       <input type="text" name="name" placeholder="Your name">
+       <label class="form-label">Email</label>
+       <input type="email" name="email" placeholder="your@email.com">
+       <label class="form-label">Message</label>
+       <textarea name="message" placeholder="How can we help?"></textarea>
        <button class="submit-btn">
         Send Message
        </button>
