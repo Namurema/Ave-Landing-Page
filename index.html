@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ave Mobile</title>
-    <link rel="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
@@ -25,17 +25,27 @@
         <div class="container hero-container">
             <h1 class="hero-heading">DAILY PRAYER COMPANION</h1>
             <h2 class="second-heading">Your Daily<br>
-            Prayer Companion</h2>
+            <span class="prayer">Prayer</span> Companion</h2>
             <p1 class="hero-paragraph">
                Experience a deeper connection with your faith through daily<br>
                 prayers, mysteries, and personalized devotions.
             </p1>
         </div>
         <div class="hero-btns">
+          
+    
          <button class="App-store">
-
+          <img src="assets/as.png" alt="Apple" class="store-icon"/>
+          <span>Download on the <br>
+          App Store</span> 
          </button>
-         <button class="Google-store"></button>
+         <button class="App-store">
+          <img src="assets/gp.png" alt="Google Play" class="store-icon"/>
+          <span>GET IT ON <br>
+          Google Play</span> 
+         </button>
+         
+         
         </div>
 
     </div>
@@ -45,52 +55,65 @@
         <h3 class="features-subheading">Everything You Need <br>
         in Prayer</h3>
         <div class="features-cards">
-            <div class="card-grid">
+            
             <div class="daily-prayers">
+              <button class="features-btn">
               <h3 class="dailyprayers-heading">Daily Prayers</h3>
               <p2 class="dailyprayers-paragraph">
               Access a collection of daily prayers to <br>
                strengthen your faith and connect<br> 
                with God every day.
               </p2>
+              </button>
+
             </div>
             <div class="daily-Mysteries">
+              <button class="features-btn">
               <h3 class="dailymsteries-heading">Daily Mysteries</h3>
               <p2 class="dailymysteries-paragraph">
               Reflect on the sacred mysteries with
               <br> guided meditations and spiritual insights.
               </p2>
+              </button>
             </div>
             <div class="Novenas">
+              <button class="features-btn">
               <h3 class="Novenas-heading">Novenas</h3>
               <p2 class="Novenas-paragraph">
                    Follow nine-day prayer devotions with<br>
                     reminders and reflections for your spiritual
                      journey. <br>
               </p2>
+              </button>
             </div>
             <div class="Multilingual">
+              <button class="features-btn">
               <h3 class="Multilingual-heading">Multilingual</h3>
               <p2 class="Multilingual-paragraph">
               Pray in your preferred language with<br>
                support for multiple languages worldwide.
               </p2>
+              </button>
             </div>
             <div class="prayer-schedules">
+              <button class="features-btn">
               <h3 class="prayerschedules-heading">Prayer Schedules</h3>
               <p2 class="prayerschedules-paragraph">
               Set personalized prayer reminders and schedules<br>
                to help maintain your daily devotions.
               </p2>
+              </button>
             </div>
             <div class="stay-connected">
+              <button class="features-btn">
               <h3 class="stayconnected-heading">Stay Connected</h3>
               <p2 class="stayconnected-paragraph">
               Reach out to our community and share your prayer<br>
                intentions with fellow believers.
               </p2>
+              </button>
             </div>
-            </div>
+            
 
         </div>
 
@@ -108,6 +131,7 @@
        </div>
        <div class="card-grid">
         <div class="First-testimonial">
+          <button class="testimonials-btn">
          <p2 class="first-card">
          "AVE has completely transformed my <br>
          prayer life. The daily reminders help<br>
@@ -116,22 +140,27 @@
           -Eleanor Babirye
         
          </p2>
+         </button>
          </div>
          <div class="second-testimonial">
+          <button class="testimonials-btn">
          <p2 class="second-card">
          "The novena feature is incredible. <br>
          I've completed several novenas and felt a deeper spiritual connection.<br>
           Highly recommend this app to anyone seeking to grow in faith."
           — John Michael
          </p2>
+         </button>
          </div>
          <div class="third-testimonial">
+          <button class="testimonials-btn">
          <p2 class="third-card">
          "Simple, beautiful, and powerful.<br>
          AVE makes it easy to incorporate prayer into my busy schedule.<br>
           The daily mysteries are my favorite feature."
           — Sarah Chen
          </p2>
+         </button>
          </div>
        </div>
         </div>
@@ -151,7 +180,7 @@
       <form class="contact-form">
        <input type="Name" placeholder="Full Name">
        <input type="email" placeholder="E-mail">
-       <input type="text" placeholder="Enter Your Message">
+       <textarea placeholder="Enter Your Message"></textarea>
        <button class="submit-btn">
         Send Message
        </button>
