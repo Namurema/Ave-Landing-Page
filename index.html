@@ -185,5 +185,23 @@
     <footer class="footer">
    <p class="footer-paragraph">© 2026 AVE. All rights reserved.</p>
     </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.remove('section-hidden');
+                    entry.target.classList.add('section-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.features, .testimonies, .contact, .hero-section, .header-section')
+            .forEach(el => {
+                el.classList.add('section-hidden');
+                observer.observe(el);
+            });
+    </script>
 </body>
 </html>
